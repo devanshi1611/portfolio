@@ -738,7 +738,7 @@ var PROJECTS = [
     desc:'A WooCommerce checkout customised to support a more suitable purchasing flow for the business.',
     contribution:'Customised the WooCommerce checkout form.',
     details: ['Customized the WooCommerce checkout form to meet the store-specific purchasing requirements.','Modified the checkout flow to better suit the intended customer purchasing process.','Adjusted the existing WooCommerce checkout functionality while maintaining integration with the store setup.','Worked on checkout-related functionality to support the required e-commerce workflow.','Tested and debugged checkout customizations to identify and resolve functional issues.'],
-    tags: ['WordPress','WooCommerce','PHP','Checkout Customization','E-commerce','Debugging'] },
+    tags: ['WordPress','WooCommerce','PHP','Checkout Customization','E-commerce','Debugging'], links: [['Visit website', 'https://greenmybusiness.co.uk/']] },
   { id: 'completehr',title: 'CompleteHR',short: 'CompleteHR',mono: 'CH',badges: [ 'Custom Theme', 'ACF', 'Performance'],thumb: './images/Complete HR.webp',image: './images/Complete HR.webp', kind: 'Custom theme · Dynamic blocks', feature: false, summary: 'A custom WordPress website built from scratch with flexible ACF-powered content blocks.',
     desc: 'Developed the CompleteHR website using a custom WordPress theme, following client references and collaborating with the designer to implement the intended layouts. Focused on flexible content management, security, and website performance.',
     contribution: 'Built the custom theme, integrated dynamic ACF blocks, collaborated with the designer, and handled website security and performance.',
@@ -889,7 +889,7 @@ jQuery(function($){
         '<h4>My contribution</h4><p style="color:var(--text);font-size:16px">'+esc(p.contribution)+'</p>'+
         '<h4>Implementation details</h4><ul class="det">'+det+'</ul>'+
         '<h4>Technology</h4><div class="tags">'+tags+'</div>'+
-        (links?'<div class="links">'+links+'</div>':'<p class="pd-note">No public URL for this project.</p>')+
+        (links?'<div class="links">'+links+'</div>':'')+
       '</div><div>'+
         '<div class="shot"><div class="bar"><i></i><i></i><i></i><span>'+esc(url)+'</span></div>'+shotInner+'</div>'+
         (p.video ? '<div class="shot vid"><div class="bar"><i></i><i></i><i></i><span>walkthrough</span></div>'+vidInner+'</div>' : '')+
