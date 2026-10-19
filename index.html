@@ -684,6 +684,14 @@ var CONFIG = {
    screenshot and `video:'url'` for a walkthrough.
    ===================================================================== */
 var PROJECTS = [
+   { id:'woo-order-health-monitor', title:'WooCommerce Order Health Monitor', short:'Order Health Monitor', mono:'OH', badges:['WordPress','WooCommerce','PHP','Custom Plugin'],
+     thumb:'./images/WOO Cart Analytics Dashboard.webp', image:'./images/WooCommerce Order Health Monitor.webp', kind:'Custom plugin · Order monitoring', feature:false,
+     summary:'A custom WooCommerce plugin for monitoring order issues and generating reports.',
+     desc:'A WordPress plugin that identifies potentially problematic WooCommerce orders using configurable monitoring rules, tracks detected issues, and provides scan history and reporting tools.',
+     contribution:'Designed and developed the plugin independently, including monitoring rules, scan processing, issue management, database storage, settings, and CSV reporting.',
+     details:['Developed a custom WordPress plugin to monitor WooCommerce order statuses.','Implemented configurable rules for failed orders and orders exceeding pending, processing, and on-hold age thresholds.','Built manual and scheduled scanning with batch processing and execution locking.','Implemented issue tracking with open, resolved, and dismissed states.','Created custom database tables to store issue records and scan history.','Used WooCommerce CRUD APIs for order access, with HPOS compatibility support.','Developed an admin dashboard, configurable settings, issue management, and reporting screens.','Implemented report filtering and CSV export functionality.'],
+     tags:['PHP','WordPress Plugin Development','WooCommerce','MySQL','Scheduled Tasks','Database Design','HPOS Compatibility','CSV Export'],
+     links:[['View on GitHub','https://github.com/devanshi1611/woo-order-health-monitor']] },
   { id:'anywhere', title:'Anywhere Couriers', short:'Anywhere Couriers', mono:'AC', badges:['WordPress','API','WooCommerce'],
     thumb:'./images/Anywhere Couriers.webp', image: './images/Anywhere Couriers.webp', video: './videos/Same Day Courier Service _ Anywhere Couriers.mp4', kind:'Custom plugin · WooCommerce', feature:true,
     videoPoster: './images/Anywhere-Couriers-Poster.webp', summary:'A multi-step courier quote flow built as a custom WordPress plugin.',
